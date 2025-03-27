@@ -75,7 +75,7 @@ nav ul li a:hover {
 
 /* Sección Hero */
 main{
-  background-image: url(img/representacion-3d-fondo-geometrico-abstracto-blanco-negro_23-2150853541.avif);
+  background-image: url(img/paisaje\ bosque\ minimalista-6345.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -171,7 +171,7 @@ main{
 
 .game-card {
   background-color: #16213e;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 12px;
   transition: transform 0.3s ease;
 }
@@ -182,7 +182,7 @@ main{
 .game-card {
   flex: 0 0 250px; /* Ancho fijo para cada tarjeta */
   scroll-snap-align: start;
-  min-height: 350px; /* Altura mínima para consistencia */
+  min-height: 250px; /* Altura mínima para consistencia */
 }
 
 .game-card img {
