@@ -44,7 +44,7 @@ nav ul {
 }
 
 nav ul li {
-  margin-left: 2rem; /* Más espacio entre elementos de navegación */
+  margin-left: 0rem; /* Más espacio entre elementos de navegación */
   position: relative;
   font-size: 1.2rem; /* Aumentar tamaño de texto de navegación */
 }
@@ -53,6 +53,11 @@ nav ul li a {
   color: #ffffff;
   text-decoration: none;
   padding: 0.5rem 1rem; /* Añadir padding para área de clic más grande */
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+nav ul li a:hover {
+  color: #4dabf7; /* Color más brillante */
+  text-shadow: 0 0 10px rgba(77, 171, 247, 0.7); /* Efecto de brillo */
 }
 
 .dropdown-content {
@@ -182,4 +187,9 @@ footer {
   margin: 0 1.5rem;
   text-decoration: none;
   font-size: 1.1rem;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+.footer-links a:hover {
+  color: #4dabf7; /* Color más brillante */
+  text-shadow: 0 0 10px rgba(77, 171, 247, 0.7); /* Efecto de brillo */
 }
