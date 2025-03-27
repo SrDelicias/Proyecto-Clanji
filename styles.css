@@ -1,0 +1,185 @@
+
+/* Reseteo de estilos predeterminados */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #1a1a2e;
+  color: #ffffff;
+  font-size: 10px; /* Aumentar tamaño de fuente base */
+}
+
+/* Encabezado */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem; /* Aumentar padding */
+  background-color: #16213e;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px; /* Aumentar tamaño del logo */
+  margin-right: 2rem;
+}
+
+.logo h1 {
+  font-size: 2.5rem; /* Aumentar tamaño del título */
+}
+
+/* Navegación */
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 2rem; /* Más espacio entre elementos de navegación */
+  position: relative;
+  font-size: 1.2rem; /* Aumentar tamaño de texto de navegación */
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5rem 1rem; /* Añadir padding para área de clic más grande */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #16213e;
+  min-width: 200px; /* Aumentar ancho del dropdown */
+  padding: 1rem;
+  z-index: 1;
+}
+
+.dropdown-content li {
+  margin: 0.5rem 0;
+}
+
+/* Sección Hero */
+main{
+  background-image: url(img/representacion-3d-fondo-geometrico-abstracto-blanco-negro_23-2150853541.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.hero {
+  text-align: center;
+  padding: 0 2rem; /* Más espaciado vertical */
+}
+
+.hero h2 {
+  font-size: 3rem; /* Aumentar tamaño del título */
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem; /* Aumentar tamaño del subtítulo */
+  margin-bottom: 2rem;
+}
+
+.search-container {
+  max-width: 700px; /* Aumentar ancho del contenedor de búsqueda */
+  margin: 3rem auto;
+  background-color: #16213e;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.search-container h3 {
+  font-size: 2rem; /* Aumentar tamaño del título de búsqueda */
+  margin-bottom: 1.5rem;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.search-container button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #0f3460;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+  background-color: #182747;
+}
+
+/* Sección Juegos */
+.games {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.games h2 {
+  font-size: 2.5rem; /* Aumentar tamaño del título de juegos */
+  margin-bottom: 2rem;
+}
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem; /* Más espacio entre tarjetas */
+  max-width: 1200px; /* Limitar ancho máximo */
+  margin: 0 auto;
+}
+
+.game-card {
+  background-color: #16213e;
+  padding: 2rem;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.game-card:hover {
+  transform: scale(1.05);
+}
+
+.game-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.game-card h3 {
+  font-size: 1.5rem;
+}
+
+/* Footer */
+footer {
+  background-color: #16213e;
+  text-align: center;
+  padding: 2rem;
+  font-size: 1rem;
+}
+
+.footer-links {
+  margin-top: 1rem;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 1.5rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
