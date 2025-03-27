@@ -148,6 +148,26 @@ main{
   max-width: 1200px; /* Limitar ancho máximo */
   margin: 0 auto;
 }
+.games-grid {
+  display: flex;
+  overflow-x: auto; /* Permitir scroll horizontal */
+  gap: 1rem;
+  padding: 1rem 0;
+  scroll-snap-type: x mandatory; /* Para un desplazamiento más suave */
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch; /* Mejor experiencia en dispositivos móviles */
+}
+.games-grid::-webkit-scrollbar {
+  height: 10px; /* Altura de la barra de desplazamiento */
+}
+.games-grid::-webkit-scrollbar-track {
+  background: #16213e; /* Color de fondo de la pista */
+}
+
+.games-grid::-webkit-scrollbar-thumb {
+  background-color: #0f3460; /* Color del pulgar de la barra de desplazamiento */
+  border-radius: 20px;
+}
 
 .game-card {
   background-color: #16213e;
@@ -158,6 +178,11 @@ main{
 
 .game-card:hover {
   transform: scale(1.05);
+}
+.game-card {
+  flex: 0 0 250px; /* Ancho fijo para cada tarjeta */
+  scroll-snap-align: start;
+  min-height: 350px; /* Altura mínima para consistencia */
 }
 
 .game-card img {
