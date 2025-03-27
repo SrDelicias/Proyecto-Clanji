@@ -24,13 +24,15 @@ header {
 }
 
 .logo {
+  text-decoration: none;
+  color: rgb(243, 243, 117);
   display: flex;
   align-items: center;
 }
 
 .logo img {
   width: 50px; /* Aumentar tamaño del logo */
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 .logo h1 {
