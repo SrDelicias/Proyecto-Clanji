@@ -25,7 +25,7 @@ header {
 
 .logo {
   text-decoration: none;
-  color: rgb(243, 243, 117);
+  color: white;
   display: flex;
   align-items: center;
 }
@@ -102,7 +102,7 @@ main{
   margin: 3rem auto;
   background-color: #16213e;
   padding: 2rem;
-  border-radius: 12px;
+  border-radius: 20px;
 }
 
 .search-container h3 {
@@ -118,18 +118,19 @@ main{
 }
 
 .search-container button {
-  width: 100%;
+  width: 70%;
   padding: 1rem;
   background-color: #0f3460;
   color: white;
   border: none;
+  border-radius: 15px;
   font-size: 1.2rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .search-container button:hover {
-  background-color: #182747;
+  background-color: #4160a3;
 }
 
 /* Sección Juegos */
@@ -201,7 +202,7 @@ main{
 footer {
   background-color: #16213e;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   font-size: 1rem;
 }
 
