@@ -112,7 +112,7 @@ main{
 }
 
 .search-container {
-  max-width: 700px; /* Aumentar ancho del contenedor de búsqueda */
+  max-width: 400px; /* Aumentar ancho del contenedor de búsqueda */
   margin: 3rem auto;
   background-color: #16213e;
   padding: 2rem;
@@ -132,7 +132,7 @@ main{
 }
 
 .search-container button {
-  width: 100%;
+  width: 60%;
   padding: 1rem;
   background-color: #0f3460;
   color: white;
@@ -140,10 +140,11 @@ main{
   font-size: 1.2rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  border-radius: 15px;
 }
 
 .search-container button:hover {
-  background-color: #182747;
+  background-color: #2d519e;
 }
 
 /* Sección Juegos */
@@ -223,7 +224,7 @@ main{
 footer {
   background-color: #16213e;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   font-size: 1rem;
 }
 
@@ -243,14 +244,13 @@ footer {
   text-shadow: 0 0 10px rgba(77, 171, 247, 0.7); /* Efecto de brillo */
 }
 
-/* From Uiverse.io by vinodjangid07 */ 
+/* Links de Contacto */ 
 .card {
-  width: fit-content;
-  height: fit-content;
+  width: auto;
   background-color: #16213e;
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   padding: 10px 10px;
   gap: 10px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
