@@ -11,6 +11,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url(../img/paisaje\ bosque\ minimalista-6345.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .container {
@@ -170,7 +174,7 @@ button:hover {
 }
 
 .social-btn.twitter {
-    background-color: #1DA1F2;
+    background-color: #025183;
 }
 
 .social-btn:hover {
@@ -178,7 +182,7 @@ button:hover {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Media queries para responsividad */
+/* Media queries para responsive */
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
